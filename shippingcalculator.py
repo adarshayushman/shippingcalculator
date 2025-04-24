@@ -42,11 +42,11 @@ elif ground_weight > 6 and ground_weight <= 10:
   cost_ground = (ground_weight * 4) + 20
 elif ground_weight > 10: 
   cost_ground = (ground_weight * 4.75) + 20 
-print("The cost of your package via GROUND SHIPPING will be " +  str(cost_ground) + "dollars. \n")
+print("The cost of your package via GROUND SHIPPING will be " +  str(cost_ground) + " dollars. \n")
 
 #Ground Shipping Premium
 cost_ground_premium = 125
-print("The cost of your package via GROUND SHIPPING PREMIUM will be " + str(cost_ground_premium) + "dollars. \n")  
+print("The cost of your package via GROUND SHIPPING PREMIUM will be " + str(cost_ground_premium) + " dollars. \n")  
 
 #Drone Shipping
 if drone_weight <= 2: 
@@ -57,7 +57,7 @@ elif drone_weight > 6 and drone_weight <= 10:
   cost_drone = drone_weight * 12
 elif drone_weight > 10: 
   cost_drone = drone_weight * 14.25
-print("The cost of your package via DRONE SHIPPING will be " + str(cost_drone) + "dollars. \n") 
+print("The cost of your package via DRONE SHIPPING will be " + str(cost_drone) + " dollars. \n") 
 
 if cost_ground < cost_drone and cost_ground < cost_ground_premium: 
   print("GROUND SHIPPING is the cheapest option. ")
